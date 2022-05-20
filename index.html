@@ -81,6 +81,12 @@
           // Please replace this with your license: https://img.ly/dashboard
           license: '{"owner":"Imgly Inc.","version":"2.4", ...}',
           image: "https://images.unsplash.com/photo-1599713061074-9efa95376d3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+          watermark: {
+            watermarkURI: 'watermark.svg',
+            alignment: 'top-right',
+            inset: 0.5,
+            size: 0.6,
+          },
           assetBaseUrl: 'https://unpkg.com/photoeditorsdk/assets',
           layout: userInterface,
           theme: theme,
@@ -88,12 +94,7 @@
             canvas: {
               height: 560,
           },
-          watermark: {
-            watermarkURI: 'watermark.svg',
-            alignment: 'top-right',
-            inset: 0.5,
-            size: 0.6,
-          },
+          
           mainCanvasActionBar: {
               height: 48,
           },
