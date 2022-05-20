@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+} */
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons-ui, .buttons-theme {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-ui div, .buttons-theme div {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.buttons-ui div:hover, .buttons-theme div:hover {
+    color: white;
+    background-color: black;
+}
