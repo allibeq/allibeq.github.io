@@ -19,7 +19,7 @@
     <div class="container">
       <div id="editor" style="width: 100%; height: 100%; position: absolute;"></div>
     </div>
-    <script type="module">
+    <script>
       import { LibraryProvider, LibraryCategory, LibraryImage } from 'photoeditorsdk';
 
 class MyProvider extends LibraryProvider {
@@ -35,7 +35,7 @@ class MyProvider extends LibraryProvider {
     }
 
     return this.loadJSON(
-      'https://github.com/allibeq/allibeq.github.io/blob/main/metadata_artlogo.json',
+      'https://img.ly/static/libraries/unsplash/metadata.json',
     ).then(data => {
       this.data = data;
       return data;
